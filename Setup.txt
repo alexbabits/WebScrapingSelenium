@@ -1,0 +1,17 @@
+Open a new terminal in VS Code. (Menu bar and click on Terminal --> New Terminal. A terminal should open at bottom)
+Install 'virtualenv' package: 
+'pip install virtualenv'
+
+Create a new virtual environment. Run this in the terminal:
+'virtualenv scraper-env'
+
+Activate the virtual environment on windows:
+'scraper-env\Scripts\activate'
+
+You should see the virtual environment name '(scraper-env)' at the beginning of your terminal line, indicating that it is active.
+
+Install the required packages in the virtual environment:
+
+'pip install selenium ipython'
+
+Lastly, create a new Python file in VS Code. seleniumproject.py and put the scraping code in that.
